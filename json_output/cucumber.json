@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validate the Login page Test",
+        "description": "",
+        "id": "aakash-prime-class-feature-test;validate-the-login-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1038200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user is on homepage",
+            "match": {
+              "location": "HomepageSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user first click on login icon",
+            "match": {
+              "location": "HomepageSteps.user_first_click_on_login_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user reach on login page",
+            "match": {
+              "location": "HomepageSteps.user_reach_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user now enter the Id and password",
+            "match": {
+              "location": "HomepageSteps.user_now_enter_the_Id_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "HomepageSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Aakash Prime class feature Test",
+    "description": "",
+    "id": "aakash-prime-class-feature-test",
+    "keyword": "Feature",
+    "uri": "file:primeclass_home.feature",
+    "tags": []
+  }
+]
