@@ -25,7 +25,7 @@ public class TestBase {
 
 		try {
 			fp = new FileInputStream(
-					"D:\\Core Java\\PrimeClassAakash\\src\\main\\java\\com\\primeclass\\qa\\configure\\config.properties");
+					"D:\\Core Java\\Cucumber-AakashPrime\\src\\main\\java\\com\\primeclass\\qa\\config\\config.properties");
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -45,7 +45,8 @@ public class TestBase {
 		String browsername = prop.getProperty("browser");
 
 		if (browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\\\Selenium Training//chromedriver_win32//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",
+					"E:\\\\Selenium Training//chromedriver_win32//chromedriver.exe");
 
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 

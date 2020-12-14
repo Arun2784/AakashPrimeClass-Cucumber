@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
         	plugin = { "pretty", "html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml" },//for reporting 
             monochrome = true, //display the console output in proper readble format
             strict=true, //it will check if any step is not define inside the step defenitions.
-        	dryRun = true)//to check the mapping between feature file and step definitions file.
+        	dryRun = false)//to check the mapping between feature file and step definitions file.
 		
 
 		
